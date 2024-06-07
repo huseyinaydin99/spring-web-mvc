@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/tr/com/huseyinaydin/configuration/DepoTakipConfiguration.java=UTF-8
+encoding//src/main/java/tr/com/huseyinaydin/configuration/DepoTakipInitializer.java=UTF-8
+encoding//src/main/java/tr/com/huseyinaydin/controller/DepoTakipController.java=UTF-8
+encoding//src/main/java/tr/com/huseyinaydin/model/pojo/entity/MusteriJSON.java=UTF-8
+encoding//src/main/java/tr/com/huseyinaydin/model/pojo/entity/MusteriXML.java=UTF-8
