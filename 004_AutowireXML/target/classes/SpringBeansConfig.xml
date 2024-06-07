@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 
+	<bean id="adres" class="tr.com.huseyinaydin.Adres">
+		<property name="acikAdresBilgisi" value="Adana Adana Adana Adana merkez patlıyoo herkes"/>
+	</bean>
+	 -->
+	 
+	<bean id="ogrenci" class="tr.com.huseyinaydin.Ogrenci" autowire="byName">
+		<property name="adi" value="Hüseyin"/>
+		<property name="soyadi" value="Aydın"/>
+	<!--
+		<property name="adres" ref="adres"/>
+	-->
+	<!-- 		
+		<constructor-arg ref="adres"/> 
+	-->	
+	<!-- 	
+		<constructor-arg> 
+				<ref bean="adres"/>	
+		</constructor-arg>
+	 -->
+	</bean>
+	
+	<bean id="adres2" class="tr.com.huseyinaydin.Adres">
+		<property name="acikAdresBilgisi" value="Dünya Gezegeni "/>
+	</bean>
+	
+	<bean id="ogrenci2" class="tr.com.huseyinaydin.Ogrenci" autowire="byType"  >
+		<property name="adi" value="Cübbeli Mahmood Hoca"/>
+		<property name="soyadi" value="Şenşakırdakçıoğulları"/>
+	</bean>
+</beans>
